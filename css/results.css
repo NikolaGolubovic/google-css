@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(95, 99, 104, 0.2);
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.top-header img {
+    margin-bottom: 25px;
+}
+
+
+
+form {
+    border: 1px solid rgba(173, 163, 163, 0.6);
+    margin-left: 20px;
+    border-radius: 15px;
+    width: 600px;
+}
+
+form i {
+    float: right;
+    margin-right: 10px;
+    padding-top: 10px;
+    color: #4285F4;
+    font-size: 20px;
+}
+
+
+.lose-input {
+    border: none;
+    width: 80%;
+    outline: none;
+    padding: 12px 30px;
+    border-radius: 15px;
+}
+
+.header-tools {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.header-tools .active {
+    color: #EA4335;
+}
+
+.header-tools > * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(95, 99, 104, 0.8);
+    min-width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-tools > *:hover {
+    color: #EA4335;
+}
+
+.header-tools > * i {
+    font-size: 1.2em;
+    margin-right: 3px;
+}
+
+
+
+.top-header .user-header {
+    float: right;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-header i {
+    color: #EA4335;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+/* SECTION */
+
+
+.results {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    width: 800px;
+}
+
+.number-of-results {
+    font-size: 14px;
+    line-height: 43px;
+    color : rgb(112, 117, 122);
+    text-overflow: elipsis;
+}
+
+.site-found {
+    margin-bottom: 20px;
+    color: rgb(60, 64, 67);
+}
+
+.result-title {
+    color: rgb(26,13,171);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 26px;
+    margin-block-end: 3px;
+    margin-bottom: 3px;
+}
+
+.site-found p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21.98px;
+}
+
+/* VIDEOS CARDS */
+
+.videos-sign {
+    color: rgb(107, 103, 103);
+    line-height: 16px;
+    font-size: 14px;   
+}
+
+.videos {
+    display: flex;
+    margin: 20px 0;
+}
+
+iframe {
+    border-radius: 6px 6px 0 0;
+    border: none;
+}
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    border: 1px solid rgba(173, 163, 163, 0.6);
+    border-radius: 6px;
+    margin-right: 10px;
+    height: 280px;
+}
+
+.video-title {
+    color: rgb(26, 13, 171);
+    cursor: pointer;
+    font-size: 16px;
+    height: 110px;
+    line-height: 22px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.video-chan-name p, .video-location-date p {
+    color: rgb(128, 128, 128);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.video-chan-name p {
+    padding-bottom: 0;
+    margin-bottom: -5px;
+}
+
+
+.video-location-date {
+    font-size: 13px;
+}
+
+.video-location-date span {
+    color: black;
+}
+
+/* RELATED */
+
+.related-box {
+    border: 1px solid rgba(173, 163, 163, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.related-box h4 {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.related-box p {
+    margin: 5px 0 10px 0;
+    line-height: 1.3;
+    color: #222;
+    font-size: 20px;
+}
+
+.related-first {
+    display: flex;
+    height: 100px;
+}
+
+.related-first > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    overflow: hidden;
+    margin-right: 10px;
+    justify-content: center;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.related {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.related h3 {
+    color:#70757a;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.related-pages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.related-pages {
+    grid-gap: 10px;
+}
+
+.related-pages a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.related-pages a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer > * {
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    background: #F2F2F2;
+    padding: 10px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    text-align: left;
+    padding-left: 125px;
+}
+
+.user-location {
+    display: flex;
+}
+
+.user-location > * {
+    margin-right: 15px;
+}
+
+.google-service a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    margin-right: 20px;
+}
